@@ -5,9 +5,14 @@ public class Light {
     private int on;
     private int off;
 
+    private String description;
+
+    public Light(String description) {
+        this.description = description;
+    }
 
     public int getOn() {
-        System.out.println("light is on");
+        System.out.println(description+" light is on");
         return on;
     }
 
@@ -16,7 +21,7 @@ public class Light {
     }
 
     public int getOff() {
-        System.out.println("light is off");
+        System.out.println(description+" light is off");
         return off;
     }
 

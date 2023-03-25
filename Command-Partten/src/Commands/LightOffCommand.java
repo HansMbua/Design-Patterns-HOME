@@ -3,20 +3,22 @@ package Commands;
 import InterfaceP.Command;
 import Model.Light;
 
-public class LightOnCommand implements Command {
-    private Light light;
+public class LightOffCommand implements Command {
 
-    public LightOnCommand(Light light) {
+private Light light;
+
+    public LightOffCommand(Light light) {
         this.light = light;
     }
 
+
     @Override
     public void execute() {
-        light.getOn();
+        light.getOff();
     }
 
     @Override
     public void undo() {
-        light.getOff();
+        light.getOn();
     }
 }

@@ -18,6 +18,7 @@ public class GarageDoor {
     }
 
     public String getDown() {
+        System.out.println("door down");
         return down;
     }
 
