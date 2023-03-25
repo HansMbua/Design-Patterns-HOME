@@ -3,23 +3,22 @@ package Commands;
 import InterfaceP.Command;
 import Model.GarageDoor;
 
-public class GarageDoorOpenCommand implements Command {
+public class GarageDoorCloseCommand implements Command {
 
     private GarageDoor garageDoor;
 
-    public GarageDoorOpenCommand(GarageDoor garageDoor) {
+    public GarageDoorCloseCommand(GarageDoor garageDoor) {
         this.garageDoor = garageDoor;
     }
 
 
-
     @Override
     public void execute() {
-        garageDoor.getLightOn();
+        garageDoor.getDown();
     }
 
     @Override
     public void undo() {
-        garageDoor.getDown();
+        garageDoor.getLightOn();
     }
 }
