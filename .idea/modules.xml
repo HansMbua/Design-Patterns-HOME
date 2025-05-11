@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Command-Partten/Command-Partten.iml" filepath="$PROJECT_DIR$/Command-Partten/Command-Partten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Customer_of_the_day/Customer_of_the_day.iml" filepath="$PROJECT_DIR$/Customer_of_the_day/Customer_of_the_day.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Design-Patterns-HOME.iml" filepath="$PROJECT_DIR$/.idea/Design-Patterns-HOME.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUIComponents/GUIComponents.iml" filepath="$PROJECT_DIR$/GUIComponents/GUIComponents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GenericDataStructures/GenericDataStructures.iml" filepath="$PROJECT_DIR$/GenericDataStructures/GenericDataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lamder/Lamder.iml" filepath="$PROJECT_DIR$/Lamder/Lamder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pizzer/Pizzer.iml" filepath="$PROJECT_DIR$/Pizzer/Pizzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheSingletopPattern/TheSingletopPattern.iml" filepath="$PROJECT_DIR$/TheSingletopPattern/TheSingletopPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WifiHackingApp/WifiHackingApp.iml" filepath="$PROJECT_DIR$/WifiHackingApp/WifiHackingApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decorator/decorator.iml" filepath="$PROJECT_DIR$/decorator/decorator.iml" />
+    </modules>
+  </component>
+</project>
